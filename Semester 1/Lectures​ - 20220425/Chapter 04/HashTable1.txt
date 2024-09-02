@@ -1,0 +1,6 @@
+Homework Hash Table:
+1. Create string Array (Hash Table) with size = 20;
+
+2. Create two functions (hash function) to generate string into number: i) Add Digit; ii) Multiply by power;
+
+3. Store few words in Hash Table, in case if the index was already occuppied just provide message informtion.

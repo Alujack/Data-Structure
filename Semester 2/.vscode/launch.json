@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CostSearch",
+      "request": "launch",
+      "mainClass": "CostSearch",
+      "projectName": "Semester 2_4b9509b4"
+    },
+    {
+      "type": "java",
+      "name": "homework1",
+      "request": "launch",
+      "mainClass": "homework1",
+      "projectName": "Semester 2_4b9509b4"
+    },
+    {
+      "type": "java",
+      "name": "Graphhomework",
+      "request": "launch",
+      "mainClass": "Graphhomework",
+      "projectName": "Semester 2_4b9509b4"
+    },
+    {
+      "type": "java",
+      "name": "homework2",
+      "request": "launch",
+      "mainClass": "homework2",
+      "projectName": "Semester 2_4b9509b4"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

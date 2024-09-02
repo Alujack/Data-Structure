@@ -1,0 +1,20 @@
+
+string MyBox[20];
+
+void Insertion(string s){
+	double LargeNumber = GenerateStringToNumber(s);
+	int BoxNumber = Large % 20;
+	if NoCollison --> MyBox[ BoxNumber ] = s;
+	else {
+		- Find Next Index (IndexOfEmptyBox) of Empty Box
+		- MyBox[ IndexOfEmptyBox ] = s;
+	}
+};
+
+bool Search(string s){
+
+	double LargeNumber = GenerateStringToNumber(s);
+	int BoxNumber = Large % 20;
+	if the Box of index BoxNumber is Empty --> No s in the box;
+	else check next box till Empty Box or find item s	
+};

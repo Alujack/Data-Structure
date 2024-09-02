@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CostSearch",
+      "request": "launch",
+      "mainClass": "CostSearch",
+      "projectName": "Assignment08_fed1ee30"
+    },
+    {
+      "type": "java",
+      "name": "Optimize",
+      "request": "launch",
+      "mainClass": "Optimize",
+      "projectName": "Assignment08_fed1ee30"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/ITE_RUPP/Year2/Data Structure/Semester 2/Assignment08",
+      "program": "d:/ITE_RUPP/Year2/Data Structure/Semester 2/Assignment08/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
