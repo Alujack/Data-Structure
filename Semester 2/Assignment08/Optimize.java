@@ -20,7 +20,7 @@ public class Optimize {
     public static void printVisitedNodes(List<Integer> visitedNodes) {
         System.out.print("Visited nodes: ");
         for (int node : visitedNodes) {
-            System.out.print((node + 1) + " "); // +1 to match the 1-based indexing in your problem description
+            System.out.print((node + 1) + " ");
         }
         System.out.println();
     }
@@ -32,7 +32,7 @@ public class Optimize {
     public static void costSearch(int[][] matrix, int start, int goal) {
         List<Integer> visitedNodes = new ArrayList<>();
         PriorityQueue<Node> open = new PriorityQueue<>();
-        Map<Integer, Integer> costSoFar = new HashMap<>(); // Tracks the lowest cost to reach each node
+        Map<Integer, Integer> costSoFar = new HashMap<>();
 
         open.add(new Node(start, 0));
         costSoFar.put(start, 0);
@@ -53,7 +53,6 @@ public class Optimize {
                     if (matrix[current.id][i] != 0) {
                         int newCost = current.cost + matrix[current.id][i];
 
-                        // If we find a cheaper way to reach node i, update the priority queue
                         if (!costSoFar.containsKey(i) || newCost < costSoFar.get(i)) {
                             costSoFar.put(i, newCost);
                             open.add(new Node(i, newCost));

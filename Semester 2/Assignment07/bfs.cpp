@@ -2,7 +2,7 @@
 #include <queue>
 #include <vector>
 
-bool isElementInStack(std::queue<int> queue, int element)
+bool isElementInQueue(std::queue<int> queue, int element)
 {
     while (!queue.empty())
     {
@@ -68,7 +68,7 @@ STEP2:
 
     for (int i = 0; i < 8; i++)
     {
-        if (G[n - 1][i] != 0 && !isElementInStack(queue, i + 1) && !isElementInNode(visitedNodes, i + 1))
+        if (G[n - 1][i] != 0 && !isElementInQueue(queue, i + 1) && !isElementInNode(visitedNodes, i + 1))
         {
             queue.push(i + 1);
         }
@@ -91,7 +91,7 @@ int main()
     int startVertex = 1;
     int goal = 8;
 
-    std::cout << "DFS starting from vertex " << startVertex << ":\n";
+    std::cout << "BFS starting from vertex " << startVertex << ":\n";
 
     DFS(G, startVertex, goal);
 

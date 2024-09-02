@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Graphhomework {
+public class Graph {
    static  int[][] Matrix = {
             { -1, 2, -1, 3, -1, -1, -1, -1, -1, -1 },
             { -1, -1, 4, 2, 7, -1, -1, -1, -1, -1 },

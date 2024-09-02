@@ -1,4 +1,4 @@
-public class homework {
+public class LinearProbing {
     static String[] hashTable = new String[200];
     
 
@@ -17,7 +17,7 @@ public class homework {
         int index = findIndex(word);
         int start = index;
         while (hashTable[index] != null) {
-            index = (index + 1) % 200; // Linear probing
+            index = (index + 1) % 200; // LinearProbing
             if (index == start) {
                 System.out.println("Hash table is full. Cannot insert " + word);
                 return;

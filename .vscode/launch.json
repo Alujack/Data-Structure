@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Graph",
+      "request": "launch",
+      "mainClass": "Graph",
+      "projectName": "Data Structure_749cc605"
+    },
+    {
+      "type": "java",
+      "name": "Optimize",
+      "request": "launch",
+      "mainClass": "Optimize",
+      "projectName": "Data Structure_749cc605"
+    },
+    {
+      "type": "java",
       "name": "homework",
       "request": "launch",
       "mainClass": "homework",
